@@ -5,8 +5,7 @@ import { rem } from "@mantine/core";
 export const title = style({
   color: vars.colors.black,
   fontSize: rem(100),
-  fontWeight: 900,
-  letterSpacing: rem(-2),
+  fontWeight: 700,
 
   selectors: {
     [vars.darkSelector]: {

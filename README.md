@@ -1,6 +1,6 @@
 # Next.js Mobi Template
 
-This template incorporates various technologies used in Mobi projects. Also uses a default Mobi favicon and load Mobi branded fonts.
+This template incorporates various technologies used in Mobi projects. Also uses a default Mobi favicon and loads Mobi branded fonts.
 
 ## Features
 

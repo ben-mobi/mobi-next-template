@@ -1,5 +1,6 @@
+import { FileText } from "@phosphor-icons/react/dist/ssr";
 import * as classes from "./Welcome.css";
-import { Title, Text, Anchor } from "@mantine/core";
+import { Title, Text, Anchor, Center } from "@mantine/core";
 
 export const Welcome = () => {
   return (
@@ -9,7 +10,7 @@ export const Welcome = () => {
           inherit
           variant="gradient"
           component="span"
-          gradient={{ from: "pink", to: "yellow" }}
+          gradient={{ from: "#5f2dc2", to: "#A578FF" }}
         >
           Mobi{" "}
         </Text>
@@ -24,6 +25,9 @@ export const Welcome = () => {
         </Anchor>
         . To get started edit index.tsx file.
       </Text>
+      <Center mt={36}>
+        <FileText size={48} color="#A578FF" />
+      </Center>
     </>
   );
 };
