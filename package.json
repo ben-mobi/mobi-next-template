@@ -12,7 +12,8 @@
     "plop": "plop",
     "prepare": "husky install",
     "pre-commit": "lint-staged",
-    "pre-push": "npm run type-check"
+    "pre-push": "npm run type-check",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@mantine/core": "7.1.1",
