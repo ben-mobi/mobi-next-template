@@ -21,5 +21,7 @@ This template incorporates various technologies used in Mobi projects.
 - Icons: [phosphor-react](https://www.npmjs.com/package/phosphor-react)
 - File generator: [Plop](https://plopjs.com/documentation/)
   - Run `npm run plop` to generate a new component. Comes with a custom prompt for creating files within modules.
+  - Edit generators in `plopfile.mjs` and templates in `./plop-templates` directory.
 - Git hooks: [Husky](https://typicode.github.io/husky/#/)
   - Basic setup for `pre-commit`, `pre-push`, `post-checkout`, and `post-merge` hooks.
+    - Edit hook files in `./.husky` directory.
