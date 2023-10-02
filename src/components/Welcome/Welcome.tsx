@@ -1,21 +1,21 @@
-import { Title, Text, Anchor } from "@mantine/core";
 import * as classes from "./Welcome.css";
+import { Title, Text, Anchor } from "@mantine/core";
 
-export function Welcome() {
+export const Welcome = () => {
   return (
     <>
       <Title className={classes.title} ta="center" mt={100}>
-        Welcome to{" "}
         <Text
           inherit
           variant="gradient"
           component="span"
           gradient={{ from: "pink", to: "yellow" }}
         >
-          Mantine
+          Mobi{" "}
         </Text>
+        Template
       </Title>
-      <Text color="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
+      <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
         This starter Next.js project includes a minimal setup for server side
         rendering, if you want to learn more on Mantine + Next.js integration
         follow{" "}
@@ -26,4 +26,4 @@ export function Welcome() {
       </Text>
     </>
   );
-}
+};
