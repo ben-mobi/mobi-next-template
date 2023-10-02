@@ -19,10 +19,13 @@
     "@mantine/core": "7.1.1",
     "@mantine/hooks": "7.1.1",
     "@mantine/vanilla-extract": "7.1.1",
+    "@phosphor-icons/react": "^2.0.13",
+    "@tanstack/react-query": "^4.35.7",
     "@vanilla-extract/css": "^1.11.1",
     "next": "13.4.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "zustand": "^4.4.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.4.5",
