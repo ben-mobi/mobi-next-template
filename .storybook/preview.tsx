@@ -43,9 +43,66 @@ const dmSans = localFont({
   variable: "--DM-Sans",
 });
 
+const radial = localFont({
+  src: [
+    {
+      path: "../fonts/Radial-Family/Radial-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../fonts/Radial-Family/Radial-Italic.otf",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "../fonts/Radial-Family/Radial-SemiBold.otf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../fonts/Radial-Family/Radial-SemiBoldItalic.otf",
+      weight: "600",
+      style: "italic",
+    },
+    {
+      path: "../fonts/Radial-Family/Radial-Bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../fonts/Radial-Family/Radial-BoldItalic.otf",
+      weight: "700",
+      style: "italic",
+    },
+    {
+      path: "../fonts/Radial-Family/Radial-Black.otf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../fonts/Radial-Family/Radial-BlackItalic.otf",
+      weight: "800",
+      style: "italic",
+    },
+    {
+      path: "../fonts/Radial-Family/Radial-Heavy.otf",
+      weight: "900",
+      style: "normal",
+    },
+    {
+      path: "../fonts/Radial-Family/Radial-HeavyItalic.otf",
+      weight: "900",
+      style: "italic",
+    },
+  ],
+  variable: "--Radial",
+});
+
 const FontVariableSetter = (props: PropsWithChildren) => {
   React.useEffect(() => {
     document.documentElement.classList.add(dmSans.variable);
+    document.documentElement.classList.add(radial.variable);
   }, []);
 
   return <>{props.children}</>;
