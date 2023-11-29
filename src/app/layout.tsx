@@ -1,9 +1,9 @@
-import "@mantine/core/styles.css";
+// https://mantine.dev/styles/mantine-styles/#css-layers
+import "@mantine/core/styles.layer.css";
 import React from "react";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "@src/styles/theme";
-import { dmSans, radial } from "@src/styles/font";
-import clsx from "clsx";
+import { radial } from "@src/styles/font";
 
 export const metadata = {
   title: "Mobi Next.js Template",
@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: any }) {
   return (
-    <html lang="en" className={clsx(dmSans.variable, radial.variable)}>
+    <html lang="en" className={radial.variable}>
       <head>
         <ColorSchemeScript />
         <link rel="shortcut icon" href="/Mobi-favicon.png" />
