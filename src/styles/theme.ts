@@ -1,10 +1,10 @@
 "use client";
 
-import { createTheme } from "@mantine/core";
-import { themeToVars } from "@mantine/vanilla-extract";
+import { baseTheme } from "@src/styles/tokens/mantine";
+import { components } from "@src/styles/components";
 
-export const theme = createTheme({
-  fontFamily: "var(--Radial)",
-  headings: { fontFamily: "var(--Radial)" },
-});
-export const vars = themeToVars(theme);
+/** Combined base theme with default component overrides */
+export const theme = {
+  ...baseTheme,
+  components,
+};

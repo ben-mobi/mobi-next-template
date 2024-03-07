@@ -1,0 +1,73 @@
+/**
+ * Indexes from our Mobi semantic token style e.g. `accents.primary` to the
+ * Mantine token style e.g. `secondaryTonal.5`.
+ */
+export const semanticToMantineMap = {
+  accents: {
+    primary: "variations.0",
+    primaryHover: "primaryTonal.8",
+    primaryActive: "primaryTonal.3",
+    onPrimary: "neutrals.0",
+    secondary: "variations.3",
+    secondaryHover: "secondaryTonal.8",
+    secondaryActive: "secondaryTonal.9",
+    onSecondary: "primaryTonal.9",
+    highlight: "primaryTonal.0",
+  },
+  categorical: {
+    stay: "categorical.0",
+    travel: "categorical.1",
+    food: "categorical.2",
+    activity: "categorical.3",
+    blocked: "categorical.4",
+    eventMain: "categorical.5",
+    eventOther: "categorical.6",
+  },
+  functionals: {
+    error: "functionals.0",
+    success: "functionals.1",
+  },
+  dataviz: {
+    categorical0: "functionals.5",
+    categorical1: "functionals.6",
+    categorical2: "functionals.7",
+    categorical3: "functionals.8",
+    categorical4: "functionals.9",
+  },
+  surfaces: {
+    background: "neutrals.4",
+    overlay: "neutrals.6",
+    shadow: "neutrals.3",
+    surface: "neutrals.0",
+    surfaceAlternate: "neutrals.1",
+    surfaceVariant: "primaryTonal.1",
+    onSurface: "neutrals.6",
+    onSurfaceAlternate: "neutrals.3",
+    onSurfaceVariant: "secondaryTonal.3",
+    inverseSurface: "neutrals.6",
+    onInverseSurface: "neutrals.5",
+    onInverseSurfaceAlternate: "primaryTonal.1",
+    onInverseSurfaceVariant: "variations.1",
+    outline: "primaryTonal.1",
+    outlineVariant: "secondaryTonal.2",
+    inverseOutline: "neutrals.2",
+    divider: "primaryTonal.1",
+    inverseDivider: "neutrals.3",
+    surfaceEmphasized: "variations.2",
+  },
+  radius: {
+    sharp: "none",
+    minimal: "sm",
+    fields: "sm",
+    containers: "md",
+    buttons: "sm",
+    round: "full",
+  },
+  shadows: {
+    "1": "xs",
+    "2": "sm",
+    "2-bottom": "smBottom",
+    "3": "md",
+    "4": "lg",
+  },
+};
