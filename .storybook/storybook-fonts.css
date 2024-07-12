@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-Regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-SemiBold.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-SemiBoldItalic.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-BoldItalic.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-Black.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-BlackItalic.otf")
+    format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-Heavy.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Radial";
+  src: url("../public/fonts/Radial-Family/Radial-HeavyItalic.otf")
+    format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+:root {
+  --Radial: "Radial";
+}
